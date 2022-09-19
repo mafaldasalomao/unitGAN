@@ -1,0 +1,3 @@
+inputSize = [128 128 3];
+net = unitGenerator(inputSize,"NumResidualBlocks",5, ...
+    "NumSharedBlocks",3)
